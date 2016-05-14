@@ -25,5 +25,4 @@ with only these variable columns - others excluded.
 Summarize and Write Results to File
 =====================================================================
 Data from table "filtered_data" is aggregated for each combination of activity (6) and subject (30) -->  total of 180 rows and strored
-in new table, "summary_data"
-"summary_data" is written to the working directory as "summary_data.csv"
+in new table, "summary_data".  "summary_data" is written to the working directory as "summary_data.txt"
