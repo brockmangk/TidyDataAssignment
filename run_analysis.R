@@ -60,5 +60,5 @@ summary_data <- aggregate(filtered_data2[,3:88],list(filtered_data2$activity,fil
 colnames(summary_data)[1] <- "activity"
 colnames(summary_data)[2] <- "subject"
 
-# Write the summary table to a local file called "summary_data.csv"
-write.csv(summary_data,file="summary_data.csv")
+# Write the summary table to a local file called "summary_data.txt"
+write.table(summary_data,file="summary_data.txt",row.names=FALSE)
